@@ -2,24 +2,24 @@
 
 @font-face {
   font-family: 'plasmatica_openitalic';
-  src: url('../fonts/plasma14/plasma14-webfont.woff2') format('woff2'),
-    url('../fonts/plasma14/plasma14-webfont.woff') format('woff');
+  src: url('./fonts/plasma14/plasma14-webfont.woff2') format('woff2'),
+    url('./fonts/plasma14/plasma14-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'plasmatica_extregular';
-  src: url('../fonts/plasma07/plasma07-webfont.woff2') format('woff2'),
-    url('../fonts/plasma07/plasma07-webfont.woff') format('woff');
+  src: url('./fonts/plasma07/plasma07-webfont.woff2') format('woff2'),
+    url('./fonts/plasma07/plasma07-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'plasmaticaregular';
-  src: url('../fonts/plasma01/plasma01-webfont.woff2') format('woff2'),
-    url('../fonts/plasma01/plasma01-webfont.woff') format('woff');
+  src: url('./fonts/plasma01/plasma01-webfont.woff2') format('woff2'),
+    url('./fonts/plasma01/plasma01-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -86,7 +86,7 @@ h2 {
   justify-content: center;
   font-family: 'plasmatica_extregular';
   font-size: 1.5rem;
-  color: #eee;
+  color: #ccc;
   text-shadow: 1px 1px 2px black;
 }
 

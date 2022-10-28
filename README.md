@@ -8,7 +8,14 @@ A project from Javascript course, the Odin Project.
   - 
 
 ## Key new concepts used
-- Assets
+- webpack
+  - setting up webpack.config.js
+  - asset management
+  - output management
+
+- github
+  - make page live when there is no index.html in the root directory
+    - [Deploying a subfolder to GitHub Pages](https://gist.github.com/cobyism/4730490)
  
   
 - HTML
@@ -18,6 +25,7 @@ A project from Javascript course, the Odin Project.
 
   
 - Javascript
+  - export and import
 
 
 # Resources
