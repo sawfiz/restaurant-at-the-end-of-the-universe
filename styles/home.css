@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+@font-face {
+  font-family: 'plasmatica_openitalic';
+  src: url('../fonts/plasma14/plasma14-webfont.woff2') format('woff2'),
+    url('../fonts/plasma14/plasma14-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'plasmatica_extregular';
+  src: url('../fonts/plasma07/plasma07-webfont.woff2') format('woff2'),
+    url('../fonts/plasma07/plasma07-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'plasmaticaregular';
+  src: url('../fonts/plasma01/plasma01-webfont.woff2') format('woff2'),
+    url('../fonts/plasma01/plasma01-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+body {
+  background: #000;
+}
+
+/* Hide scroll bar, but still allow scroll */
+body {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+#content {
+  max-width: 1400px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background: #202020;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-image: url('https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  font-family: 'plasmatica_openitalic';
+  font-size: clamp(3rem, 10vw, 5rem);
+  text-shadow: 0px 0px 16px red;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: 'plasmatica_openitalic';
+  font-size: 2rem;
+  text-shadow: 0px 0px 8px red;
+}
+
+.header-name {
+  text-align: center;
+  color: #fee;
+}
+
+.nav {
+  margin-top: 2rem;
+  display: flex;
+  gap: clamp(1rem, 10vw, 4rem);
+  justify-content: center;
+  font-family: 'plasmatica_extregular';
+  font-size: 1.5rem;
+  color: #eee;
+  text-shadow: 1px 1px 2px black;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+li.active-tab {
+  color: #fff;
+  text-shadow: 2px 2px 8px blue;
+}
+
+.intro,
+.hero {
+  width: clamp(400px, 75%, 1080px);
+}
+
+.intro {
+  margin: 1rem auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background: #202020;
+}
+
+.intro-img {
+  flex: 1;
+  max-width: 280px;
+}
+
+.quote-container {
+  flex: 1;
+  min-width: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Quicksand';
+  font-size: 1.3rem;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.quotee {
+  width: 100%;
+  text-align: right;
+  margin: 1rem;
+}
+
+.hero {
+  margin: 1rem;
+  padding: 1rem;
+  margin: auto;
+  background: #202020;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-text {
+  color: white;
+}
+
+p {
+  margin: 0.5rem;
+  font-family: 'Quicksand';
+  font-size: 1.2rem;
+}
+
+footer {
+  margin-top: 1rem;
+  background: #202020;
+  color: #eee;
+  text-align: center;
+  padding: 0.5rem;
+  font-family: 'plasmaticaregular';
+}
+
