@@ -119,8 +119,7 @@ li.active {
 }
 
 .intro-img {
-  flex: 1;
-  max-width: 280px;
+  height: 280px;
 }
 
 .quote-container {
