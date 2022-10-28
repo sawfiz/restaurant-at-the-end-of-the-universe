@@ -21,3 +21,6 @@ A project from Javascript course, the Odin Project.
 
 
 # Resources
+Logo https://99designs.com.sg/profiles/svartink/designs/1532509
+images https://www.usgamer.net/articles/meet-the-no-mans-sky-chefs-who-are-literally-putting-food-on-the-table
+https://dribbble.com/shots/15727814-The-Restaurant-at-the-End-of-the-Universe
