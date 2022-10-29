@@ -8,11 +8,6 @@ A project from Javascript course, the Odin Project.
   - 
 
 ## Key new concepts used
-- webpack
-  - setting up webpack.config.js
-  - asset management
-  - output management
-
 - github
   - make page live when there is no index.html in the root directory
     - [Deploying a subfolder to GitHub Pages](https://gist.github.com/cobyism/4730490)
@@ -25,10 +20,20 @@ A project from Javascript course, the Odin Project.
 
   
 - Javascript
+  - Include HTML code in javascript using template literals ``
+  - webpack
   - export and import
+  - setting up webpack.config.js
+  - asset management
+  - output management
 
 
 # Resources
-Logo https://99designs.com.sg/profiles/svartink/designs/1532509
-images https://www.usgamer.net/articles/meet-the-no-mans-sky-chefs-who-are-literally-putting-food-on-the-table
-https://dribbble.com/shots/15727814-The-Restaurant-at-the-End-of-the-Universe
+- Content
+  - The book Hitchhiker's Guid to the Galaxy, by Douglas Adams
+  - https://hitchhikers.fandom.com/wiki/Main_Page
+- Images
+  - https://www.usgamer.net/articles/meet-the-no-mans-sky-chefs-who-are-literally-putting-food-on-the-table
+  - https://dribbble.com/shots/15727814-The-Restaurant-at-the-End-of-the-Universe
+- Fonts
+  - https://www.1001fonts.com/plasmatica-font.html
