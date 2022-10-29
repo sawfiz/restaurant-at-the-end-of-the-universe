@@ -4,7 +4,7 @@ import loadHeader from './header';
 import loadHome from './home';
 import loadMenu from './menu';
 import loadReservation from './reservation';
-import './header.css';
+
 
 const contentEl = document.createElement('div');
 contentEl.setAttribute('id', 'content');
